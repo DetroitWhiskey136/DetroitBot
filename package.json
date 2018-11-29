@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/DetroitWhiskey136/DetroitBot/issues"
   },
-  "homepage": "https://github.com/DetroitWhiskey136/DetroitBot#readme"
+  "homepage": "https://github.com/DetroitWhiskey136/DetroitBot#readme",
+
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "chalk": "^2.4.1",
+    "nodemon": "^1.18.6"
+  }
 }
