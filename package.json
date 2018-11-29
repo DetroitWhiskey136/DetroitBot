@@ -1,0 +1,19 @@
+{
+  "name": "detroitwhiskey",
+  "version": "0.0.1",
+  "description": "Just some Whiskey thrown together.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DetroitWhiskey136/DetroitBot.git"
+  },
+  "author": "DetroitWhiskey136",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DetroitWhiskey136/DetroitBot/issues"
+  },
+  "homepage": "https://github.com/DetroitWhiskey136/DetroitBot#readme"
+}
