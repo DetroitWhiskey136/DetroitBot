@@ -1,25 +1,15 @@
 {
-  "name": "detroitwhiskey",
-  "version": "0.0.1",
-  "description": "Just some Whiskey thrown together.",
+  "name": "a_discord_bot",
+  "version": "1.0.0",
+  "description": "This is a bot made using the djs guide",
   "main": "bot.js",
   "scripts": {
-    "test": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DetroitWhiskey136/DetroitBot.git"
+    "main": "bot.js"
   },
   "author": "DetroitWhiskey136",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DetroitWhiskey136/DetroitBot/issues"
-  },
-  "homepage": "https://github.com/DetroitWhiskey136/DetroitBot#readme",
-
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "chalk": "^2.4.1",
-    "nodemon": "^1.18.6"
+    "canvas": "^2.0.0-alpha.12",
+    "discord.js": "^11.4.2"
   }
 }

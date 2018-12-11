@@ -1,0 +1,32 @@
+{
+	"channels": {
+		"log": "",
+		"welcome": "",
+		"leave": "",
+		"commands": "",
+		"general": ""
+	},
+	"colors": {
+		"black": "#000000",
+		"white": "#ffffff",
+		
+		"lBlue": "#008080",
+		"blue": "#0000ff",
+		"dBlue": "#0e2f44",
+		
+		"lRed": "#cc0000",
+		"red": "#ff0000",
+		"dRed": "#800000",		
+		
+		"lGreen": "#bada55",
+		"green": "#00ff00",
+		"dGreen": "#065535",
+
+		"lGrey": "#999999",
+		"grey": "#666666",
+		"dGrey": "#333333",
+
+		"slateGrey": "#133337",
+		"yellow": "#ffd700"	
+	}
+}

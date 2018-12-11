@@ -4,3 +4,12 @@
 # Package-Lock
 /package-lock.json
 
+# Settings
+/data/settings/authentication
+/data/settings/config.json
+/data/settings/general.json
+
+# Commands not ready 
+/data/commands/emit.js
+/data/commands/args-info.js
+/data/commands/role.js
