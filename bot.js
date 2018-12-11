@@ -1,6 +1,5 @@
 const fs = require('fs');
 const DiscordJS = require('discord.js');
-const Canvas = require('canvas');
 // const snekfetch = require('snekfetch');
 const { prefix, bot_token } = require('./data/settings/config.json');
 const { channels } = require('./data/settings/general.json');
@@ -24,22 +23,7 @@ client.on('guildMemberAdd', async member => {
 	const channel = member.guild.channels.find(ch => ch.id === channels.log);
 	if (!channel) return;
 
-	const canvas = Canvas.createCanvas(700, 250);
-	const ctx = canvas.getContext('2d');
-
-	const background = await Canvas.loadImage('./data/img/wallpaper.png');
-
-	ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
-
-	// Select the color of the stroke
-	ctx.strokeStyle = '#74037b';
-	// Draw a rectangle with the dimensions of the entire canvas
-	ctx.strokeRect(0, 0, canvas.width, canvas.height);
-
-	const attachment = new DiscordJS.Attachment(canvas.toBuffer(), 'welcome-image.png');
-
-
-	channel.send(`Welcome to the server, ${member}`, attachment);
+	channel.send(`Welcome to the server, ${member}`);
 });
 
 client.on('message', message => {
